@@ -30,7 +30,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar>
+    <Sidebar side="left" variant="sidebar">
       <SidebarHeader className=" flex items-center justify-center py-4">
         <h1 className=" font-semibold text-2xl">VoiceNotes</h1>
       </SidebarHeader>
